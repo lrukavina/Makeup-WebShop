@@ -6,9 +6,8 @@ export async function fetchItems() {
   return items;
 }
 
-
-export function setItems(items, appDiv){
-  items.forEach(function(element){
+export function setItems(items, appDiv) {
+  items.forEach(function (element) {
     appDiv.innerHTML += ` <div class="item-card">
     <span id="brandName">${element.brand}</span>
     <img

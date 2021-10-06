@@ -31,6 +31,11 @@ h3 {
   background-color: #f76558;
 }
 
+.loading-bar {
+  text-align: center;
+  margin-top: 30vh;
+}
+
 .items {
   margin-left: 12%;
 }
@@ -52,11 +57,21 @@ h3 {
   -webkit-box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.05);
   box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.05);
   transition: 0.3s;
+  animation: fadeIn 0.8s;
 }
 
 .item-card:hover {
   -webkit-box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .item-card span,
