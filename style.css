@@ -9,7 +9,26 @@ h3 {
 
 .welcome {
   text-align: center;
-  margin-bottom: 10vh;
+  margin-bottom: 15vh;
+}
+
+.search input {
+  padding: 8px 12px;
+}
+
+.search button {
+  margin-left: 15px;
+  padding: 12px 48px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ea4335;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search button:hover {
+  background-color: #f76558;
 }
 
 .items {
@@ -30,14 +49,14 @@ h3 {
   height: 480px;
   padding: 25px 32px;
   cursor: pointer;
-  -webkit-box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.09);
-  box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.05);
   transition: 0.3s;
 }
 
 .item-card:hover {
-  -webkit-box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.19);
-  box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.1);
 }
 
 .item-card span,
